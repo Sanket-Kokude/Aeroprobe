@@ -12,7 +12,7 @@ function Loginform({login, error}) {
        <form onSubmit={submithandler}>
            <div className="form-inner">
              <h2>SignUp</h2>  
-             { (error!= "") ? ( <div className="error">{error} </div>): ""}
+             { (error!== "") ? ( <div className="error">{error} </div>): ""}
              <div className="form-group">
                  <label htmlFor="username">Name:</label>
                  <input type="text" name="Username" id="username" onChange={e=>setDetails({...details, username: e.target.value})} value={details.username} />

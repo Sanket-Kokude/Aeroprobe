@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Products from './components/pages/FAQ';
 import SignUp from './components/pages/SignUp';
 import AdminLogin from './components/pages/AdminLogin';
 import ViewPastData from './components/pages/ViewPastData';
@@ -22,7 +21,6 @@ function App() {
         <Switch>
           <Route path='/' exact component={calc} />
           <Route path='/ViewPastData' component={ViewPastData} />
-          <Route path='/FAQ' component={Products} />
           <Route path='/FAQ_1' component={FAQ_1} />
           <Route path='/FAQ_2' component={FAQ_2} />
           <Route path='/AdminLogin' component={AdminLogin} />

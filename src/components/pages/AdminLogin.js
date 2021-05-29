@@ -1,14 +1,9 @@
-// import React from 'react';
-// import '../../App.css';
 import React, { useState, useEffect } from 'react';
 import Loginform from './Loginform';
 import './AdminLogin.css';
 import '../HeroSection.css';
 import ViewUsers from './ViewUsers';
-import { Link } from 'react-router-dom';
 import '../Navbar.css';
-//import history from '../history';
-// import './About.css';
 import { useHistory } from 'react-router-dom';
 
 

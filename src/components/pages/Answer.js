@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 //import React from 'react';
 import '../../App.css';
 import '../../App.js';
 import './AdminLogin.css';
-import Adminlogin from "./AdminLogin";
 // import { useHistory } from 'react-router-dom';
 import fire from '../../fire';
 class Answer extends React.Component{

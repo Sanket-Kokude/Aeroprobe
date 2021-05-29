@@ -33,16 +33,7 @@ form {
   display: block;
   position: relative;
 }
-/* form:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  z-index: 1;
-} */
+
 form .form-inner {
       position: relative;
       display: block;
@@ -79,14 +70,7 @@ form .form-inner .form-inner {
   transition: all 300ms ease-in;
 
 }
-/* .form-inner .form-group:hover{
-  transform:translate(0,-5px);
-  color:#f50808;
-} */
-/* .form-inner .form-group:focus-within label {
-  color: #f50808;
-  font-size:45px;
-} */
+
 form .form-inner .form-group input{
   font-size: 30px;
   display: block;

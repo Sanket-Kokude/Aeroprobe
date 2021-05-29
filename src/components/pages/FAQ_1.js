@@ -1,45 +1,8 @@
-import React, { useEffect, useState } from "react";
-//import React from 'react';
+import React from "react";
 import '../../App.css';
 import '../../App.js';
 import FAQ_2 from './FAQ_2';
-// import Faq from "react-faq-component";
 import fire from '../../fire';
-
-// const data = {
-//     title: "FAQ",
-//     rows: [
-//         {
-//             title: "What is Aeroprobe?",
-//             content: `Aeroprobe is an Air Quality Monitering System which alerts the users if the Air has harmful gases in higher concentrations.`,
-//         },
-//         {
-//             title: "What are the harmful effects of higher concentration of Carbon Monooxide?",
-//             content:"Carbon monoxide (CO) is a poisonous, colorless, odorless and tasteless gas. Although it has no detectable odor, CO is often mixed with other gases that do have an odor. So, you can inhale carbon monoxide right along with gases that you can smell and not even know that CO is present.",
-//         },
-//         {
-//             title: "What are the harmful effects of pm10?",
-//             content: `Exposure to high concentrations of PM10 can result in a number of health impacts ranging from coughing and wheezing to asthma attacks and bronchitis to high blood pressure, heart attack, strokes and premature death.`,
-//         },
-//     ],
-// };
-
-// const styles = {
-//     // bgColor: 'white',
-//     titleTextColor: "blue",
-//     rowTitleColor: "blue",
-//     // rowContentColor: 'grey',
-//     // arrowColor: "red",
-// };
-
-// const config = {
-//     animate: true,
-//     arrowIcon: "V",
-//     tabFocus: true
-// };
-
-
-
 class FAQ_1 extends React.Component{
 
     constructor(props) {
@@ -82,24 +45,6 @@ class FAQ_1 extends React.Component{
             });
           };
 
-    //   componentDidMount() {
-       
-       
-         
-    //       fire.database().ref("faq").on("value", snapshot => {
-    //         let studentlist = [];
-    //         let id=snapshot.val();
-    //         snapshot.forEach(snap => {
-    //             // snap.val() is the dictionary with all your keys/values from the 'students-list' path
-    //             studentlist.push(snap.val());
-    //         });
-    //         this.setState({ studentslist: studentlist });
-    //       });
-        
-        
-    //  }
-
-
     render(){
         return (
             <div className="FAQ_1">
@@ -120,21 +65,7 @@ class FAQ_1 extends React.Component{
                            )}
                         </div>
                     );
-                // if(data.answer){
-                //     return (
-                //         <div>
-                //             <h5>Q).{data.question}?</h5>
-                //             <h6>Ans: {data.answer}</h6>
-                //         </div>
-                        
-                //     );
-                // }
                 })}
-                {/* <Faq
-                    data={data}
-                    styles={styles}
-                    config={config}
-                /> */}
                 </div>
                 <br/>
                 <h3><u>Post Question</u></h3>

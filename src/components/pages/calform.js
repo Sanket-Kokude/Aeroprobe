@@ -2,7 +2,6 @@ import React from 'react';
 import './AdminLogin.css';
 import '../../App.css';
 import '../HeroSection.css'
-import axios from 'axios';
 const calform=(props)=>{
     return(
             
